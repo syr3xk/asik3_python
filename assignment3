@@ -116,7 +116,6 @@ class ResultSaver:
             print(f"Error saving file: {e}")
 
 
-#
 fm = FileManager('students.csv')
 
 if not fm.check_file():
